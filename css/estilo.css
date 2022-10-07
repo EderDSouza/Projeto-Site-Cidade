@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../image/fundo.png);
+    height:auto;
+    
+}
+header > div#fundo-logo{
+    
+}
+div > image.foto-fundo{
+    
+}
+div > image.foto-logo{
+
+}
