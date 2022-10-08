@@ -4,18 +4,63 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(../image/fundo.png)repeat-x;
+}
 
 header{
-    background-image: url(../image/fundo.png);
-    height:auto;
+    
+    display: flex;  
     
 }
-header > div#fundo-logo{
+div{
+ margin-left: 07%;
+}
+
+div > img.foto-logo{
+    transform: translatey(20px);
+    position: relative;
+    display: flex;
+    margin-left: 15%;
+   
+}
+
+div > nav{
+    display: flex;
+    margin-top: 60px;
+}
+
+
+section > div#logo-mundo{
+   position: relative;
+   
     
 }
-div > image.foto-fundo{
-    
-}
-div > image.foto-logo{
+ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 15%;
 
 }
+li{
+    background: #DE003E;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    display: block;
+    border: 1px solid;
+   
+    
+}
+
+li > a{
+    font-size: 1.2em;
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    padding: 10px;
+    
+}
+
