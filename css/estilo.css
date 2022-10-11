@@ -81,7 +81,8 @@ div#headerTopo a:hover{
 section {
     display: flex;
     margin-top: 5% ;
-    margin-left: 10%;
+    margin-left: 12%;
+    width: 820px;
 
 }
 h2{
@@ -108,6 +109,8 @@ h3{
 }
 
 
+
+
 div >img.fotoDoutor{
     width: 270px;
     height: auto;
@@ -128,6 +131,39 @@ div > p.nomeEntrevista{
     padding-top: 20px;
 }
 
-div#entrevista li{
+div#primeiraColuna li{
     padding: 15px;
+}
+
+div img.fotoCidade{
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-top: 10px;
+
+
+}
+ p.paragrafo{
+    float: right;
+    width: 170px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 5px;
+    
+
+}
+p.paragrafo > a{
+    text-decoration: none;
+}
+input{
+    width:270px;
+    height: 40px;
+    margin-top: 15px;
+    
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    background: #DE003E;
 }
