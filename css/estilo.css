@@ -6,6 +6,7 @@
 }
 body{
     background: url(../image/fundo.png)repeat-x;
+    font-size: 1em
 }
 
 header{
@@ -50,7 +51,7 @@ div#headerTopo ul{
 }
 div#headerTopo li{
     background: #DE003E;
-    width: 120px;
+    width: 130px;
     height: 40px;
     text-align: center;
     display: block;
@@ -81,7 +82,7 @@ div#headerTopo a:hover{
 section {
     display: flex;
     margin-top: 5% ;
-    margin-left: 12%;
+    margin-left: 13%;
     width: 820px;
 
 }
@@ -166,4 +167,12 @@ button{
     padding: 10px;
     width: 100px;
     background: #DE003E;
+}
+
+footer{
+    background: #294C71;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
 }
