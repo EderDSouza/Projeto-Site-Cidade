@@ -16,6 +16,11 @@ header{
 div{
  margin-left: 07%;
 }
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
 
 div > img.foto-logo{
     transform: translatey(20px);
@@ -36,21 +41,20 @@ div#logo-mundo{
    
     
 }
-ul{
+div#headerTopo ul{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    list-style: none;
     margin-left: 15%;
 
 }
-li{
+div#headerTopo li{
     background: #DE003E;
     width: 120px;
     height: 40px;
     text-align: center;
     display: block;
-    border: 1px solid;
+    
    
     
 }
@@ -61,7 +65,15 @@ li > a{
     text-decoration: none;
     display: flex;
     padding: 10px;
+    background: url(../image/divisor.png) no-repeat left center;
     
+}
+div#headerTopo ul >li.primeiro a{
+    background: none;
+    
+} 
+div#headerTopo a:hover{
+    background: #69001d;
 }
 
 /*Conteudo main */
@@ -69,7 +81,6 @@ li > a{
 section {
     display: flex;
     margin-top: 5% ;
-    border: 1px solid red;
     margin-left: 10%;
 
 }
@@ -108,11 +119,15 @@ div > p {
     
 }
 
-div >img.fotoCidade{
+div >img.fotoTaxi{
     width: 270px;
     margin-top: 5px;
 }
 
 div > p.nomeEntrevista{
     padding-top: 20px;
+}
+
+div#entrevista li{
+    padding: 15px;
 }
