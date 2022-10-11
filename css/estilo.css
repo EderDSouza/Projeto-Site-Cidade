@@ -31,7 +31,7 @@ div > nav{
 }
 
 
-section > div#logo-mundo{
+div#logo-mundo{
    position: relative;
    
     
@@ -64,3 +64,55 @@ li > a{
     
 }
 
+/*Conteudo main */
+
+section {
+    display: flex;
+    margin-top: 5% ;
+    border: 1px solid red;
+    margin-left: 10%;
+
+}
+h2{
+    background: #294C71;
+    width: 270px;
+    height: 30px;
+    color: #fff;
+    padding-left: 5px;
+}
+
+h4{
+    background: #DE003E;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    width: 200px;
+    padding: 5px;
+}
+h3{
+    background: #DE003E;
+    width: 150px; 
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+
+div >img.fotoDoutor{
+    width: 270px;
+    height: auto;
+    margin-top: 5px;
+}
+
+div > p {
+    width: 270px;
+    
+}
+
+div >img.fotoCidade{
+    width: 270px;
+    margin-top: 5px;
+}
+
+div > p.nomeEntrevista{
+    padding-top: 20px;
+}
