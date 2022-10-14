@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/media-query">
-    <title>Cidade</title>
+    <link rel="stylesheet" href="css/media-query.css">
+    <title>Cidade Noticias</title>
 </head>
+
 <body>
-   <header>
-    
-           
-        <div id="headerTopo">
-            <img class="foto-logo"src="image/logo.png" alt="">
+    <header>
+
+        <div id="logoCidade">
+            <img class="foto-logo" src="image/logo.png" alt="">
+        </div>
+
+        <div id="menuTopo">
             <nav>
                 <ul>
                     <li class="primeiro"><a href="">Home</a> </li>
@@ -24,19 +28,20 @@
                     <li><a href="">Ciência</a> </li>
                     <li><a href="">Fotos</a></li>
                 </ul>
-                </nav>
+            </nav>
         </div>
         <div id="logo-mundo">
             <img class="foto-mapa-logo" src="image/detalhe-topo.png">
         </div>
 
-   </header>
-   <main>
+    </header>
 
-    <section>
-        <div id="primeiraColuna">
-            <h2>Entrevistas</h2>
-            <p class="nomeEntrevista">
+    <main>
+
+        <section>
+            <div id="primeiraColuna">
+                <h2>Entrevistas</h2>
+                <p class="nomeEntrevista">
                 <ul>
                     <li>José Almeida</li>
                     <li>Felipe Silva</li>
@@ -47,69 +52,92 @@
                     <li>João Pedro</li>
                     <li>Fernando Ferrari </li> <br>
                 </ul>
-                
+
+
+                </p>
+                <h2>News</h2>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email" placeholder="Digite seu e-mail"><br>
+                <button>Cadastrar</button>
+
+
+            </div>
+
+            <div id="segundaColuna">
+                <h2>Últimas Entrevistas</h2>
+                <h4>Entrevista com Felipe Silva</h4>
+                <img class="fotoDoutor" src="image/doutor.jpg" alt="foto doutor">
+                <p>
+                    Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit.
+                    <br>
+                    <a href="#">Leia mais</a><br><br><br>
+                </p>
+                <h2>Mundo</h2>
+
+                <ul>
+                    <li><img class="fotoCidade" src="image/cidade.jpg">
+                        <p class="paragrafo"><a href="">Crise européia</a><br> Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/eua.png">
+                        <p class="paragrafo"><a href="">USA tenta novo acordo</a><br> Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/siria.png">
+                        <p class="paragrafo"><a href="">Guerra na Síria</a><br> Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/mundo.jpg">
+                        <p class="paragrafo"><a href="">Rússia aprova lei</a><br> Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit...</p>
+                    </li>
+
+
+                </ul>
+            </div>
+
+            <div id="terceiraColuna">
+                <h2>Destaque</h2>
+                <h3 class="tituloLegislacao">Nova legislação</h3>
+                <img class="fotoTaxi" src="image/taxi.jpg" alt="foto cidade">
+                <p>
+                    Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit.
+                    <br>
+                    <a href="">Leia mais</a><br><br><br>
+                </p>
+
+                <h2>Noticias Recentes</h2>
+
+                <ul>
+                    <li><img class="fotoCidade" src="image/tecnologia.jpg">
+                        <p class="paragrafo"><a href="">Novas Técnologias</a><br> Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/russia.png">
+                        <p class="paragrafo"><a href="">Parlamento Aprova...</a><br> Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/taxi.jpg">
+                        <p class="paragrafo"><a href="">Taxistas na Cidade</a><br> Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit...</p>
+                    </li>
+                    <li><img class="fotoCidade" src="image/doutor.jpg">
+                        <p class="paragrafo"><a href="">Novas Comissões</a><br> Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit...</p>
+                    </li>
+
+
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
     
-            </p>
-            <h2>News</h2>
-            <input type="text" placeholder="Digite seu nome">
-            <input type="email" placeholder="Digite seu e-mail"><br>
-            <button>Cadastrar</button>
+    <footer>&copy; Todos os Direitos Reservados</footer>
 
-
-        </div>
-
-        <div id="colunaMeio">
-            <h2>Últimas Entrevistas</h2>
-            <h4>Entrevista com Felipe Silva</h4>
-            <img class="fotoDoutor" src="image/doutor.jpg" alt="foto doutor">
-            <p>
-                Lorem ipsum dolor sit, 
-                amet consectetur adipisicing elit. 
-                <br>
-                <a href="#">Leia mais</a><br><br><br>
-            </p>
-            <h2>Mundo</h2>
-
-            <ul>
-                <li><img class="fotoCidade" src="image/cidade.jpg"><p class="paragrafo"><a href="">Crise européia</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p> </li>
-                <li><img class="fotoCidade" src="image/eua.png"><p class="paragrafo"><a href="">USA tenta novo acordo</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                <li><img class="fotoCidade" src="image/siria.png"><p class="paragrafo"><a href="">Guerra na Síria</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                <li><img class="fotoCidade" src="image/mundo.jpg"><p class="paragrafo"><a href="">Rússia aprova lei</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                
-                
-            </ul>
-        </div>
-
-        <div>
-            <h2>Destaque</h2>
-            <h3 class="tituloLegislacao">Nova legislação</h3>
-            <img class="fotoTaxi" src="image/taxi.jpg" alt="foto cidade">
-            <p>
-                Lorem ipsum dolor sit, 
-                amet consectetur adipisicing elit. 
-                <br>
-                <a href="">Leia mais</a><br><br><br>
-            </p>
-
-            <h2>Noticias Recentes</h2>
-
-            <ul>
-                <li><img class="fotoCidade" src="image/tecnologia.jpg"><p class="paragrafo"><a href="">Novas Técnologias</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p> </li>
-                <li><img class="fotoCidade" src="image/russia.png"><p class="paragrafo"><a href="">Parlamento Aprova...</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                <li><img class="fotoCidade" src="image/taxi.jpg"><p class="paragrafo"><a href="">Taxistas na Cidade</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                <li><img class="fotoCidade" src="image/doutor.jpg"><p class="paragrafo"><a href="">Novas Comissões</a><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p></li>
-                
-                
-            </ul>
-        </div>
-        
-
-    
-    
-    </section>
-
-   </main>
-   <footer>&copy; Todos os Direitos Reservados</footer>
-    
 </body>
+
 </html>
