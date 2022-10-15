@@ -3,104 +3,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
 
 
-@media screen and (max-width:600px){
- 
- 
-
+@media screen and (max-width:500px){
 
 body{
+    background: none;
     font-size: 1em;
-    max-width: 500px;
-    margin: 0;
-    padding: 0; 
-    font-family: 'lora', sans-serif;
-    border:3px solid #DE003E;
-    
-}
-
-nav{
-    position: relative;
-    display: inline-block;
-    width: 400px;
-    
-}
-main{
-    width: 400px;
-}
-
- div#headerTopo{
-    width: 500px;
-    height: auto;
-    margin: 0;
-}
-
-ul{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lora', sans-serif;
     margin: 0px;
-    padding: 0px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  
 
+}
+span.material-symbols-outlined{
+    color: #fff;
+    font-size: 3em;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    cursor: pointer;
+    background: #b4295070;
+    
+}
+span.material-symbols-outlined:hover{
+    background:#b42950;
+   
+}
+
+header{
+    background:#294C71;
+    width: 100%;
+    display: block;
+     
 }
 
 div > img.foto-logo{
-    position: absolute;
-    margin: 0;  
-      
+    position:relative;
+    margin-left: 20px;
+    
 }
-
-
-
 div#logo-mundo{
-display: none;
-
-   
-}
-div#headerTopo ul{
-    position: relative;
-    display: flex;
-    align-items: center;
-
-
-}
-div#headerTopo li{
-    background:none;
-    height: none;
-    text-align: center;
+    display: none;
+ }
+div#menuTopo{
     display: block;
-     
+    position: relative;
+    margin-left: 0;
+    background: none;
+}
+nav#menuNav{
+margin-top: 0;
+height: auto;
+display:none ;
+ 
+}
+
+div#menuTopo ul{
+    display: block;
+   background: none;
+
+}
+div#menuTopo li{
+    background: none;
     
 }
 
+div#menuTopo li > a{
+    background: rgb(146, 146, 175, 20%);
+    display: block;
+    width: 470px; 
+    text-align: center;
 
-li > a{
-    font-size: 1em;
-    color: aliceblue;
-    text-decoration: none;
-    display: flex;
-    padding: auto;
-    background:none;
-    
 }
 
-div#headerTopo a:hover{
-    background: #69001d;
-}
 
 /*Conteudo main */
 
-section {
-    margin-top: 20px;
-    display: block;
+main{
     width: 500px;
+    background: #fff;
+}
+
+section {
+    width: 470px;
+    display: block;
+    margin: 2px;
+
+}
+ul.entrevista{
+    display: none;
+}
+div#primeiraColuna{
+    width: 470px;
+    height: 100%
+    display: block;
+}
+div#segundaColuna{
+    width: 470px;
+    display: block;
+    height: 100%;
+}
+div#terceiraColuna{
+    width: 470px;
+    display: block;
+    height: 100%;
 }
 h2{
     background: #294C71;
-    width: 270px;
+    width: 470px;
     height: 30px;
     color: #fff;
-    padding-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    
 }
 
 h4{
@@ -116,24 +134,22 @@ h3{
     color: #fff;
     margin-top: 15px;
     padding: 5px;
+    display: inline-block;
 }
 
-
-
-
 div >img.fotoDoutor{
-    width: 270px;
+    width: 500px;
     height: auto;
     margin-top: 5px;
 }
 
 div > p {
-    width: 270px;
+    width: 500px;
     
 }
 
 div >img.fotoTaxi{
-    width: 270px;
+    width: 500px;
     margin-top: 5px;
 }
 
@@ -143,15 +159,30 @@ div > p.nomeEntrevista{
 
 div#primeiraColuna li{
     padding: 15px;
+    margin-left: 5px;
+    
+}
+
+/*aplicado nos dois menu fotos*/
+
+ul#menuFoto, ul#menuFoto2{
+    display: inline-block;
+    height: 100%;
+    width: 470px;
+}
+ul#menuFoto li, ul#menuFoto2 li{
+    display: inline-block;
+}
+/*-----------------------------*/
+
+h2.entrevistaTitulo{
+    display: none;
 }
 
 div img.fotoCidade{
     width: 100px;
     height: 70px;
-    float: left;
-    margin-top: 10px;
-
-
+    
 }
  p.paragrafo{
     float: right;
@@ -160,13 +191,12 @@ div img.fotoCidade{
     height: 70px;
     margin-left: 5px;
     
-
 }
 p.paragrafo > a{
     text-decoration: none;
 }
 input{
-    width:270px;
+    width:100%;
     height: 40px;
     margin-top: 15px;
     
@@ -178,12 +208,8 @@ button{
     background: #DE003E;
 }
 
-footer{
-    background: #294C71;
-    padding: 25px;
-    color: #fff;
-    text-align: center;
-    margin-top: 30px;
-}
-    
+
+ 
+
+
 }

@@ -1,21 +1,25 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
+span.material-symbols-outlined {
+    display: none;
+}
 body{
     background: url(../image/fundo.png)repeat-x;
     font-size: 1em;
-    width: 100vmax;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lora', sans-serif;
 
 }
-
 
 header{
     
     display: flex; 
-    margin-left: 6%; 
     
 }
 
@@ -28,49 +32,47 @@ ul{
 
 div > img.foto-logo{
     transform: translatey(20px);
-    position: relative;
-    display: flex;
-    margin-left: 120%;
-   
+    position:absolute;
+    margin-left: 16%;
+     
 }
 div#menuTopo{
+    position: relative;
     display: flex;
     height: auto;
-    width: 850px;
+    margin-left: 16%;
 }
 
 nav{
-position: relative;
     display: flex;
     margin-top: 15%;
-    margin-left: 3%;
-    height: 40px;
-    
+    height: 40px; 
 }
 
 div#logo-mundo{
-   position: relative;
-   float: right;  
+   position: absolute;
+   margin-left: 75%;
+   
 }
 img.foto-mapa-logo{
     position: relative;
 }
 div#menuTopo ul{
     z-index: 1;
-    width: 860px;
+    width: 820px;
     display: flex;
-    background: #DE003E;
+   
     
 }
 div#menuTopo li{
-    width: 120px;
+    
+    width: 100%;
     height:40px;
-    margin-left: 5px;
+    background: #DE003E;
     
 }
 
 div#menuTopo li > a{
-    font-size: 1.2em;
     color: aliceblue;
     text-decoration: none;
     display: flex;
@@ -84,7 +86,7 @@ div#menuTopo ul >li.primeiro a{
     
 } 
 div#menuTopo a:hover{
-    background: #69001d;
+    background: #b42950;
 }
 
 /*Conteudo main */
@@ -92,7 +94,7 @@ div#menuTopo a:hover{
 section {
     display: flex;
     margin-top: 6% ;
-    margin-left: 19%;
+    margin-left: 16%;
     
     
 
@@ -165,14 +167,14 @@ div img.fotoCidade{
     width: 100px;
     height: 70px;
     float: left;
-    margin-top: 10px;
+    margin-top: 12px;
 
 
 }
  p.paragrafo{
     float: right;
     width: 170px;
-    margin-top: 10px;
+    margin: 8px 8px 5px ;
     height: 70px;
     margin-left: 5px;
     
@@ -185,7 +187,6 @@ input{
     width:270px;
     height: 40px;
     margin-top: 15px;
-    
 }
 button{
     margin-top: 20px;
