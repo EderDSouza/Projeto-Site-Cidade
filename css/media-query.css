@@ -29,6 +29,21 @@ span.material-symbols-outlined:hover{
     background:#b42950;
    
 }
+div#cadastro{
+display: flex;
+ color:#fff;
+ margin-top: px;
+ width:50px;
+ float: right;
+ margin-right: 30px;
+margin-top: -50px;
+}
+div#cadastro span{
+background: rgb(255, 255, 255,0);
+}
+div#cadastro span:hover{
+    background: #b4295070;
+}
 
 header{
     background:#294C71;
@@ -90,12 +105,15 @@ section {
     margin: 2px;
 
 }
+span#cadastroNew{
+    display: none;
+}
 ul.entrevista{
     display: none;
 }
 div#primeiraColuna{
     width: 470px;
-    height: 100%
+    height: 100%;
     display: block;
 }
 div#segundaColuna{
@@ -138,18 +156,19 @@ h3{
 }
 
 div >img.fotoDoutor{
-    width: 500px;
+    width: 470px;
     height: auto;
     margin-top: 5px;
+   
 }
 
 div > p {
-    width: 500px;
+    width: 470px;
     
 }
 
 div >img.fotoTaxi{
-    width: 500px;
+    width: 470px;
     margin-top: 5px;
 }
 
@@ -209,7 +228,4 @@ button{
 }
 
 
- 
-
-
-}
+};

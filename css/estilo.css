@@ -22,6 +22,9 @@ header{
     display: flex; 
     
 }
+span#cadastro{
+    display: none;
+}
 
 
 ul{
