@@ -2,16 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
 
+  
+ 
 
 @media screen and (max-width:500px){
 
 body{
     background: none;
-    font-size: 1em;
+    font-size: 14px;
     width: 100vw;
     height: 100vh;
     font-family: 'Lora', sans-serif;
-    margin: 0px;
+    margin: 10px 10px;
 
 }
 span.material-symbols-outlined{
@@ -32,7 +34,6 @@ span.material-symbols-outlined:hover{
 div#cadastro{
 display: flex;
  color:#fff;
- margin-top: px;
  width:50px;
  float: right;
  margin-right: 30px;
