@@ -78,25 +78,29 @@ nav#menuNav{
 margin-top: 0;
 height: auto;
 display:none ;
+margin: 0;
+width: 500px;
  
 }
 
 div#menuTopo ul{
     display: block;
    background: none;
+   width: 500px;
 
 }
 div#menuTopo li{
     background: none;
+    width: 500px;
     
 }
 
 div#menuTopo li > a{
-    background: rgb(146, 146, 175, 20%);
-    display: block;
-    width: 480px; 
+    display: block; 
+    width: 100%;
+    background: none;
     text-align: center;
-
+    
 }
 
 
