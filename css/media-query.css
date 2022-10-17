@@ -55,12 +55,12 @@ div#cadastro span:hover{
 
 header{
     background:#294C71;
-    width: 100%;
+    width: 500px;
     display: block;
      
 }
 
-div > img.foto-logo{
+div> img.foto-logo{
     position:relative;
     margin-left: 30px;
     
@@ -73,7 +73,7 @@ div#menuTopo{
     position: relative;
     margin-left: 0;
     background: none;
-    width: 500px;
+    width: 100%;
     margin-left: 10px;
 
     
@@ -235,7 +235,7 @@ button{
     background: #DE003E;
 }
 footer{
-    width: 500px;
+    width: 100%px;
 }
 
 
