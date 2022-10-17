@@ -17,15 +17,26 @@ body{
 
 }
 
+
 header{
     
     display: flex; 
     
 }
-span#cadastro{
+div#cadastro{
+    
+    display: none;
+}  
+div#cadastro span{
     display: none;
 }
-
+span.material-symbols-outlined{
+    display: none;
+}
+span.material-symbols-outlined:hover{
+    background:none;
+   
+}
 
 ul{
     margin: 0px;
@@ -37,19 +48,20 @@ div > img.foto-logo{
     transform: translatey(20px);
     position:absolute;
     margin-left: 16%;
-     
+   
 }
 div#menuTopo{
     position: relative;
     display: flex;
     height: auto;
-    margin-left: 16%;
+    margin-left: 8.5%;
 }
 
 nav{
     display: flex;
     margin-top: 15%;
     height: 40px; 
+    margin-left: 12%;
 }
 
 div#logo-mundo{
