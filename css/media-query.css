@@ -55,7 +55,7 @@ div#cadastro span:hover{
 
 header{
     background:#294C71;
-    width: 500px;
+    width: 100%;
     display: block;
      
 }
@@ -73,7 +73,7 @@ div#menuTopo{
     position: relative;
     margin-left: 0;
     background: none;
-    width: 100%;
+    width: 500px;
     margin-left: 10px;
 
     
