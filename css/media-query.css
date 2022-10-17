@@ -73,7 +73,10 @@ div#menuTopo{
     position: relative;
     margin-left: 0;
     background: none;
-    width: 500px;
+    width: 100%;
+    margin-left: 10px;
+
+    
 }
 nav#menuNav{
 margin-top: 0;
