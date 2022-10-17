@@ -13,7 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: 'Lora', sans-serif;
-    margin: 10px 10px;
+    margin: 10px 15px;
 
 }
 span.material-symbols-outlined{
@@ -48,7 +48,7 @@ div#cadastro span:hover{
 
 header{
     background:#294C71;
-    width: 100%;
+    width: 465px;
     display: block;
      
 }
@@ -87,7 +87,7 @@ div#menuTopo li{
 div#menuTopo li > a{
     background: rgb(146, 146, 175, 20%);
     display: block;
-    width: 470px; 
+    width: 465px; 
     text-align: center;
 
 }
@@ -96,12 +96,12 @@ div#menuTopo li > a{
 /*Conteudo main */
 
 main{
-    width: 500px;
+    width: 465px;
     background: #fff;
 }
 
 section {
-    width: 470px;
+    width: 465px;
     display: block;
     margin: 2px;
 
@@ -113,23 +113,23 @@ ul.entrevista{
     display: none;
 }
 div#primeiraColuna{
-    width: 470px;
+    width: 465px;
     height: 100%;
     display: block;
 }
 div#segundaColuna{
-    width: 470px;
+    width: 465px;
     display: block;
     height: 100%;
 }
 div#terceiraColuna{
-    width: 470px;
+    width: 465px;
     display: block;
     height: 100%;
 }
 h2{
     background: #294C71;
-    width: 470px;
+    width: 465px;
     height: 30px;
     color: #fff;
     margin-top: 10px;
@@ -157,19 +157,19 @@ h3{
 }
 
 div >img.fotoDoutor{
-    width: 470px;
+    width: 465px;
     height: auto;
     margin-top: 5px;
    
 }
 
 div > p {
-    width: 470px;
+    width: 465px;
     
 }
 
 div >img.fotoTaxi{
-    width: 470px;
+    width: 465px;
     margin-top: 5px;
 }
 
@@ -188,7 +188,7 @@ div#primeiraColuna li{
 ul#menuFoto, ul#menuFoto2{
     display: inline-block;
     height: 100%;
-    width: 470px;
+    width: 465px;
 }
 ul#menuFoto li, ul#menuFoto2 li{
     display: inline-block;
@@ -219,6 +219,7 @@ input{
     width:100%;
     height: 40px;
     margin-top: 15px;
+    
     
 }
 button{
