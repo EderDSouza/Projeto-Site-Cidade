@@ -5,7 +5,7 @@
   
  
 
-@media screen and (max-width:500px){
+@media screen and (max-width:480px){
 
 body{
     background: none;
@@ -48,7 +48,7 @@ div#cadastro span:hover{
 
 header{
     background:#294C71;
-    width: 480px;
+    width: 478px;
     display: block;
      
 }
@@ -87,7 +87,7 @@ div#menuTopo li{
 div#menuTopo li > a{
     background: rgb(146, 146, 175, 20%);
     display: block;
-    width: 480px; 
+    width: 478px; 
     text-align: center;
 
 }
@@ -113,23 +113,23 @@ ul.entrevista{
     display: none;
 }
 div#primeiraColuna{
-    width: 478px;
+    width: 475px;
     height: 100%;
     display: block;
 }
 div#segundaColuna{
-    width: 478px;
+    width: 475px;
     display: block;
     height: 100%;
 }
 div#terceiraColuna{
-    width: 478px;
+    width: 475px;
     display: block;
     height: 100%;
 }
 h2{
     background: #294C71;
-    width: 465px;
+    width: 470px;
     height: 30px;
     color: #fff;
     margin-top: 10px;
@@ -159,19 +159,19 @@ h3{
 }
 
 div >img.fotoDoutor{
-    width: 478px;
+    width: 475px;
     height: auto;
     margin-top: 5px;
    
 }
 
 div > p {
-    width: 478px;
+    width: 475px;
     
 }
 
 div >img.fotoTaxi{
-    width: 478px;
+    width: 475px;
     margin-top: 5px;
 }
 
@@ -190,7 +190,7 @@ div#primeiraColuna li{
 ul#menuFoto, ul#menuFoto2{
     display: inline-block;
     height: 100%;
-    width: 478px;
+    width: 475px;
 }
 ul#menuFoto li, ul#menuFoto2 li{
     display: inline-block;
