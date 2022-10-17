@@ -73,6 +73,7 @@ div#menuTopo{
     position: relative;
     margin-left: 0;
     background: none;
+    width: 500px;
 }
 nav#menuNav{
 margin-top: 0;
@@ -229,6 +230,9 @@ button{
     padding: 10px;
     width: 100px;
     background: #DE003E;
+}
+footer{
+    width: 500px;
 }
 
 
