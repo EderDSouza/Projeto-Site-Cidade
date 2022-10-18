@@ -25,9 +25,9 @@
 
 #
 #
-<div style="width:100%;>
+<div style="width:100%;">
     <img  style="width:200px;" src="image/sitereadme.gif">
-    <img style="width:400px; heigth:500px" src="image/sitereadme2.gif">
+    <img style="width:450px; heigth:500px" src="image/sitereadme2.gif">
 </div>
 
 
