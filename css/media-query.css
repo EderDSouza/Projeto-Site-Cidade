@@ -1,28 +1,21 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap");
 
-  
- 
-
-@media screen and (max-width:500px){
-
-body{
-    background:none;
+@media screen and (max-width: 500px) {
+  body {
+    background: none;
     font-size: 14px;
     width: 100%;
     height: 100vh;
-    font-family: 'Lora', sans-serif;
+    font-family: "Lora", sans-serif;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
-  
-
-}
-span.material-symbols-outlined{
+  }
+  span.material-symbols-outlined {
     color: #fff;
     font-size: 3em;
     width: 100%;
@@ -31,214 +24,190 @@ span.material-symbols-outlined{
     margin-top: 10%;
     cursor: pointer;
     background: #b4295070;
-    
-}
-span.material-symbols-outlined:hover{
-    background:#b42950;
-   
-}
-div#cadastro{
-display: flex;
- color:#fff;
- float: right;
- margin-right: 80px;
-margin-top: -50px;
-
-}
-div#cadastro span{
-display: block;
-background-color: rgba(0, 0, 0, 0);
-}
-div#cadastro span:hover{
+  }
+  span.material-symbols-outlined:hover {
+    background: #b42950;
+  }
+  div#cadastro {
+    display: flex;
+    color: #fff;
+    float: right;
+    margin-right: 80px;
+    margin-top: -50px;
+  }
+  div#cadastro span {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  div#cadastro span:hover {
     background: #b4295070;
-}
+  }
 
-header{
-    background:#294C71;
+  header {
+    background: #294c71;
     width: 500px;
     display: block;
-     
-}
+  }
 
-div> img.foto-logo{
-    position:relative;
+  div > img.foto-logo {
+    position: relative;
     margin-left: 30px;
-    
-}
-div#logo-mundo{
+  }
+  div#logo-mundo {
     display: none;
- }
-div#menuTopo{
+  }
+  div#menuTopo {
     display: block;
     position: relative;
     margin-left: 0;
     background: none;
     width: 100%;
     margin-left: 10px;
+  }
+  nav#menuNav {
+    margin-top: 0;
+    height: auto;
+    display: none;
+    margin: 0;
+    width: 500px;
+  }
 
-    
-}
-nav#menuNav{
-margin-top: 0;
-height: auto;
-display:none ;
-margin: 0;
-width: 500px;
- 
-}
-
-div#menuTopo ul{
+  div#menuTopo ul {
     display: block;
-   background: none;
-   width: 500px;
-
-}
-div#menuTopo li{
     background: none;
     width: 500px;
-    
-    
-}
+  }
+  div#menuTopo li {
+    background: none;
+    width: 500px;
+  }
 
-div#menuTopo li > a{
-    display: block; 
+  div#menuTopo li > a {
+    display: block;
     width: 100%;
     background: none;
     text-align: center;
     transform: translateX(-26px);
-    
-}
+  }
 
+  /*Conteudo main */
 
-/*Conteudo main */
-
-main{
+  main {
     width: 500px;
     background: #fff;
     margin-left: 5px;
     margin-right: 5px;
-}
+  }
 
-section {
+  section {
     display: block;
     margin: 2px;
-
-}
-span#cadastroNew{
+  }
+  span#cadastroNew {
     display: none;
-}
-ul.entrevista{
+  }
+  ul.entrevista {
     display: none;
-}
-div#primeiraColuna{
+  }
+  div#primeiraColuna {
     display: block;
-}
-div#segundaColuna{
+  }
+  div#segundaColuna {
     display: block;
-    
-}
-div#terceiraColuna{
+  }
+  div#terceiraColuna {
     display: block;
-}
-h2{
-    background: #294C71;
+  }
+  h2 {
+    background: #294c71;
     color: #fff;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
     position: relative;
     text-align: center;
-   
-}
+  }
 
-h4{
-    background: #DE003E;
+  h4 {
+    background: #de003e;
     padding-bottom: 5px;
     margin-top: 15px;
     width: 200px;
     padding: 5px;
-}
-h3{
-    background: #DE003E;
-    width: 150px; 
+  }
+  h3 {
+    background: #de003e;
+    width: 150px;
     color: #fff;
     margin-top: 15px;
     padding: 5px;
     display: inline-block;
-}
+  }
 
-div >img.fotoDoutor{
+  div > img.fotoDoutor {
     width: 480px;
     height: auto;
     margin-top: 5px;
-   
-}
+  }
 
-
-
-div >img.fotoTaxi{
+  div > img.fotoTaxi {
     width: 480px;
     margin-top: 5px;
-}
+  }
 
-div > p.nomeEntrevista{
+  div > p.nomeEntrevista {
     padding-top: 20px;
-}
+  }
 
-div#primeiraColuna li{
+  div#primeiraColuna li {
     padding: 15px;
     margin-left: 5px;
-    
-}
+  }
 
-/*aplicado nos dois menu fotos*/
+  /*aplicado nos dois menu fotos*/
 
-ul#menuFoto, ul#menuFoto2{
+  ul#menuFoto,
+  ul#menuFoto2 {
     display: inline-block;
     height: 100%;
     width: 478px;
-}
-ul#menuFoto li, ul#menuFoto2 li{
+  }
+  ul#menuFoto li,
+  ul#menuFoto2 li {
     display: inline-block;
-}
-/*-----------------------------*/
+  }
+  /*-----------------------------*/
 
-h2.entrevistaTitulo{
+  h2.entrevistaTitulo {
     display: none;
-}
+  }
 
-div img.fotoCidade{
+  div img.fotoCidade {
     width: 100px;
     height: 70px;
-    
-}
- p.paragrafo{
+  }
+  p.paragrafo {
     float: right;
     width: 170px;
     margin-top: 10px;
     height: 70px;
     margin-left: 5px;
-    
-}
-p.paragrafo > a{
+  }
+  p.paragrafo > a {
     text-decoration: none;
-}
-input{
-    width:100%;
+  }
+  input {
+    width: 100%;
     height: 40px;
     margin-top: 15px;
-    
-    
-}
-button{
+  }
+  button {
     margin-top: 20px;
     padding: 10px;
     width: 100px;
-    background: #DE003E;
-}
-footer{
+    background: #de003e;
+  }
+  footer {
     width: 100%px;
-}
-
-
-};
+  }
+} ;

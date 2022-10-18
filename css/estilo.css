@@ -1,220 +1,192 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto:wght@400;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 span.material-symbols-outlined {
-    display: none;
+  display: none;
 }
-body{
-    background: url(../image/fundo.png)repeat-x;
-    font-size: 1em;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Lora', sans-serif;
-
-}
-
-
-header{
-    
-    display: flex; 
-    
-}
-div#cadastro{
-    
-    display: none;
-}  
-div#cadastro span{
-    display: none;
-}
-span.material-symbols-outlined{
-    display: none;
-}
-span.material-symbols-outlined:hover{
-    background:none;
-   
+body {
+  background: url(../image/fundo.png) repeat-x;
+  font-size: 1em;
+  width: 100%;
+  height: 100vh;
+  font-family: "Lora", sans-serif;
 }
 
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+header {
+  display: flex;
+}
+div#cadastro {
+  display: none;
+}
+div#cadastro span {
+  display: none;
+}
+span.material-symbols-outlined {
+  display: none;
+}
+span.material-symbols-outlined:hover {
+  background: none;
 }
 
-div > img.foto-logo{
-    transform: translatey(20px);
-    position:absolute;
-    margin-left: 16%;
-   
-}
-div#menuTopo{
-    position: relative;
-    display: flex;
-    height: auto;
-    margin-left: 8.5%;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-nav{
-    display: flex;
-    margin-top: 15%;
-    height: 40px; 
-    margin-left: 12%;
+div > img.foto-logo {
+  transform: translatey(20px);
+  position: absolute;
+  margin-left: 16%;
+}
+div#menuTopo {
+  position: relative;
+  display: flex;
+  height: auto;
+  margin-left: 8.5%;
 }
 
-div#logo-mundo{
-   position: absolute;
-   margin-left: 75%;
-   
-}
-img.foto-mapa-logo{
-    position: relative;
-}
-div#menuTopo ul{
-    z-index: 1;
-    width: 820px;
-    display: flex;
-   
-    
-}
-div#menuTopo li{
-    
-    width: 100%;
-    height:40px;
-    background: #DE003E;
-    
+nav {
+  display: flex;
+  margin-top: 15%;
+  height: 40px;
+  margin-left: 12%;
 }
 
-div#menuTopo li > a{
-    color: aliceblue;
-    text-decoration: none;
-    display: flex;
-    margin-left: 5px;
-    padding: 10px;
-    background: url(../image/divisor.png) no-repeat left center;
-    
+div#logo-mundo {
+  position: absolute;
+  margin-left: 75%;
 }
-div#menuTopo ul >li.primeiro a{
-    background: none;
-    
-} 
-div#menuTopo a:hover{
-    background: #b42950;
+img.foto-mapa-logo {
+  position: relative;
+}
+div#menuTopo ul {
+  z-index: 1;
+  width: 820px;
+  display: flex;
+}
+div#menuTopo li {
+  width: 100%;
+  height: 40px;
+  background: #de003e;
+}
+
+div#menuTopo li > a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  margin-left: 5px;
+  padding: 10px;
+  background: url(../image/divisor.png) no-repeat left center;
+}
+div#menuTopo ul > li.primeiro a {
+  background: none;
+}
+div#menuTopo a:hover {
+  background: #b42950;
 }
 
 /*Conteudo main */
 
 section {
-    display: flex;
-    margin-top: 6% ;
-    margin-left: 16%;
-    
-    
-
+  display: flex;
+  margin-top: 6%;
+  margin-left: 16%;
 }
-div#primeiraColuna{
-    width: 290px;
+div#primeiraColuna {
+  width: 290px;
 }
-div#segundaColuna{
-    width: 290px;
+div#segundaColuna {
+  width: 290px;
 }
 
-div#terceiraColuna{
-    width: 290px;
+div#terceiraColuna {
+  width: 290px;
 }
-h2{
-    background: #294C71;
-    width: 270px;
-    height: 30px;
-    color: #fff;
-    padding-left: 5px;
-    
-    
+h2 {
+  background: #294c71;
+  width: 270px;
+  height: 30px;
+  color: #fff;
+  padding-left: 5px;
 }
 
-h4{
-    background: #DE003E;
-    padding-bottom: 5px;
-    margin-top: 15px;
-    width: 200px;
-    padding: 5px;
+h4 {
+  background: #de003e;
+  padding-bottom: 5px;
+  margin-top: 15px;
+  width: 200px;
+  padding: 5px;
 }
-h3{
-    background: #DE003E;
-    width: 150px; 
-    color: #fff;
-    margin-top: 15px;
-    padding: 5px;
+h3 {
+  background: #de003e;
+  width: 150px;
+  color: #fff;
+  margin-top: 15px;
+  padding: 5px;
 }
 
-
-
-
-div >img.fotoDoutor{
-    width: 270px;
-    height: auto;
-    margin-top: 5px;
+div > img.fotoDoutor {
+  width: 270px;
+  height: auto;
+  margin-top: 5px;
 }
 
 div > p {
-    width: 270px;
-    
+  width: 270px;
 }
 
-div >img.fotoTaxi{
-    width: 270px;
-    margin-top: 5px;
+div > img.fotoTaxi {
+  width: 270px;
+  margin-top: 5px;
 }
 
-div > p.nomeEntrevista{
-    padding-top: 20px;
+div > p.nomeEntrevista {
+  padding-top: 20px;
 }
 
-div#primeiraColuna li{
-    padding: 15px;
-    margin-left: 5px;
-    
+div#primeiraColuna li {
+  padding: 15px;
+  margin-left: 5px;
 }
 
-div img.fotoCidade{
-    width: 100px;
-    height: 70px;
-    float: left;
-    margin-top: 12px;
-
-
+div img.fotoCidade {
+  width: 100px;
+  height: 70px;
+  float: left;
+  margin-top: 12px;
 }
- p.paragrafo{
-    float: right;
-    width: 170px;
-    margin: 8px 8px 5px ;
-    height: 70px;
-    margin-left: 5px;
-    
-
+p.paragrafo {
+  float: right;
+  width: 170px;
+  margin: 8px 8px 5px;
+  height: 70px;
+  margin-left: 5px;
 }
-p.paragrafo > a{
-    text-decoration: none;
+p.paragrafo > a {
+  text-decoration: none;
 }
-input{
-    width:270px;
-    height: 40px;
-    margin-top: 15px;
+input {
+  width: 270px;
+  height: 40px;
+  margin-top: 15px;
 }
-button{
-    margin-top: 20px;
-    padding: 10px;
-    width: 100px;
-    background: #DE003E;
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100px;
+  background: #de003e;
 }
 
-footer{
-    background: #294C71;
-    padding: 25px;
-    color: #fff;
-    text-align: center;
-    margin-top: 30px;
-    width: 100%;
+footer {
+  background: #294c71;
+  padding: 25px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
 }
